@@ -322,11 +322,29 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
+                    <key>#framebuffer-fbmem</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-memorycount</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-pipecount</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-portcount</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-stolenmem</key>
+                    <data>AA==</data>
                     <key>AAPL,ig-platform-id</key>
-                    <data>BgBiAQ==</data>
+                    <data>CgBmAQ==</data>
                     <key>device-id</key>
                     <data>YgEAAA==</data>
                     <key>enable-metal</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-alldata</key>
+                    <data>AgAAAAEAAAAAAAAAAwQAAAQAAAAHAQAABAAAAAEAAAAAAAAA</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-cursormem</key>
+                    <data>gJaYAA==</data>
+                    <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
                 </dict>
             </dict>
@@ -773,24 +791,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>CPUFriend.kext</string>
-                    <key>Comment</key>
-                    <string>V1.2.6</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/CPUFriend</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>AppleIntelCPUPowerManagement.kext</string>
                     <key>Comment</key>
                     <string>V222.0.0</string>
@@ -816,6 +816,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleIntelCPUPowerManagementClient</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>CPUFriend.kext</string>
+                    <key>Comment</key>
+                    <string>V1.2.6</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/CPUFriend</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>

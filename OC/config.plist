@@ -322,11 +322,29 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
+                    <key>#framebuffer-fbmem</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-memorycount</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-pipecount</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-portcount</key>
+                    <data>AA==</data>
+                    <key>#framebuffer-stolenmem</key>
+                    <data>AA==</data>
                     <key>AAPL,ig-platform-id</key>
-                    <data>BgBiAQ==</data>
+                    <data>CgBmAQ==</data>
                     <key>device-id</key>
                     <data>YgEAAA==</data>
                     <key>enable-metal</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-alldata</key>
+                    <data>AgAAAAEAAAAAAAAAAwQAAAQAAAAHAQAABAAAAAEAAAAAAAAA</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-cursormem</key>
+                    <data>gJaYAA==</data>
+                    <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
                 </dict>
             </dict>
@@ -1645,7 +1663,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 ipc_control_port_options=0 debug=0x100 -nokcmismatchpanic -v -cryptdbg -revdbg</string>
+                    <string>keepsyms=1 ipc_control_port_options=0 debug=0x100 -nokcmismatchpanic -v -cryptdbg -revdbg -igfxfbdump</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
